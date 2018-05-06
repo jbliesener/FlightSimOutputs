@@ -6,30 +6,30 @@
 # Datatypes (KEYWORD1)
 ###########################################
 
-MultiOutputBoard	            KEYWORD1
-FlightSimOutputElement        KEYWORD1
-FlightSimDigitalOutput  	    KEYWORD1
+MultiOutputBoard	KEYWORD1
+FlightSimOutputElement	KEYWORD1
+FlightSimDigitalOutput	KEYWORD1
 
 ###########################################
 # Methods and Functions (KEYWORD2)
 ###########################################
 
-setDinPin     	       KEYWORD2
-setClkPin         	   KEYWORD2
-setStbPin 	           KEYWORD2
-setEnaPin   	         KEYWORD2
-printTime  	           KEYWORD2
-checkInitialized       KEYWORD2
-begin             	   KEYWORD2
-setData                KEYWORD2
-getData	               KEYWORD2
-sendDataIfChanged      KEYWORD2
-sendData               KEYWORD2
-loop                   KEYWORD2
-setDataRef             KEYWORD2
-valueChanged           KEYWORD2
-setThreshold           KEYWORD2
-forceUpdate            KEYWORD2
+setDinPin	KEYWORD2
+setClkPin	KEYWORD2
+setStbPin	KEYWORD2
+setEnaPin	KEYWORD2
+printTime	KEYWORD2
+checkInitialized	KEYWORD2
+begin	KEYWORD2
+setData	KEYWORD2
+getData	KEYWORD2
+sendDataIfChanged	KEYWORD2
+sendData	KEYWORD2
+loop	KEYWORD2
+setDataRef	KEYWORD2
+valueChanged	KEYWORD2
+setThreshold	KEYWORD2
+forceUpdate	KEYWORD2
 
 ###########################################
 # Instances (KEYWORD2)
@@ -39,6 +39,6 @@ forceUpdate            KEYWORD2
 # Constants (LITERAL1)
 ###########################################
 
-DEBUG_OFF                     LITERAL1
-DEBUG_OUTPUT                  LITERAL1
-DEBUG_VALUE                   LITERAL1
+DEBUG_OFF	LITERAL1
+DEBUG_OUTPUT	LITERAL1
+DEBUG_VALUE	LITERAL1
