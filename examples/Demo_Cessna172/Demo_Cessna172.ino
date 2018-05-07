@@ -44,7 +44,7 @@ void setup() {
   Serial.println(__FILE__ ", compiled on " __DATE__ " at "  __TIME__);
 
   // If you use 74HCT595 shift registers, you must call this function once
-  board.setEnaPin(TEENSY_ENA_PIN, true);
+  // board.setEnaPin(TEENSY_ENA_PIN, true);
 
   // Set the X-Plane datarefs. The first three outputs all read from the same dataref
   transponderActive=             XPlaneRef("sim/cockpit2/radios/indicators/transponder_brightness");
