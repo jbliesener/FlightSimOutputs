@@ -19,9 +19,9 @@ const uint8_t NO_ENA_PIN = 0xff;
 const bool SR_74HCT4094 = false;
 const bool SR_74HCT595 = true;
 
-const uint8_t DEBUG_OFF = 0;
-const uint8_t DEBUG_OUTPUT = 1;
-const uint8_t DEBUG_VALUE = 2;
+#define DEBUG_OFF (0)
+#define DEBUG_OUTPUT (1)
+#define DEBUG_VALUE (2)
 
 const uint8_t NUMBER_OF_SHIFT_REGS = 6;
 const uint8_t MAX_NUMBER_OF_CARDS = 8;
