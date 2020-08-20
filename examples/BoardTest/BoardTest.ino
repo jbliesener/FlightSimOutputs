@@ -12,7 +12,8 @@
 // Teensy on board: standard pin assignment. Comment out if you want to use with Arduino
 MultiOutputBoard board;
 
-// For Arduino, use this line and specify pin numbers. For use with 74HCT595 shift registers,
+// For Arduino, use this line and specify pin numbers. For use with OTHER boards (not 
+// Midwest737Simulations' Multi output boards) that use 74HCT595 shift registers,
 // set enaIsActiveLow to true. If ENA pin is tied to active in hardware, use NO_ENA_PIN
 // MultiOutputBoard board(/*DIN_PIN*/5, /*CLK_PIN*/2, /*STB_PIN*/3,
 //	/*ENA_PIN: unused*/NO_ENA_PIN, /*ENA is activeLow*/false);

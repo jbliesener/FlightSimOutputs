@@ -43,7 +43,8 @@ void setup() {
                        // than 2 seconds for the next call to FlightSim.update()
   Serial.println(__FILE__ ", compiled on " __DATE__ " at "  __TIME__);
 
-  // If you use 74HCT595 shift registers, you must call this function once with "true"
+  // If you use OTHER shift register boards (not Midwest737Simulation's Multi output board)
+  // that employ 74HCT595 shift registers, you must call this function once with "true"
   // as the second parameter, as the 74HCT595 uses an active LOW signal on the ENA_PIN.
   // 74HCT4094 uses active HIGH, which is the default.
   // board.setEnaPin(TEENSY_ENA_PIN, true);
